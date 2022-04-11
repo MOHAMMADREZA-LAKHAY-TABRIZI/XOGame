@@ -19,31 +19,7 @@ const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 statusDisplay.innerHTML = currentPlayerTurn();
 
 function handleCellPlayed(event) {
-
-    // let indexgameState = Number(event.target.id) - 1;
-
-    // if (gameState[indexgameState] === '') {
-    //     gameState[indexgameState] = currentPlayer;
-    //     event.target.innerText = currentPlayer;
-    //     let situ = evaluteGameStatus();
-    //     debugger;
-    //     switch (situ) {
-    //         case 0:
-    //             statusDisplay.innerHTML = winningMessage();
-    //             gameActive = false;
-    //             break;
-    //         case 1:
-    //             statusDisplay.innerHTML = drawMessage();
-    //             gameActive = false;
-    //             break;
-    //     }
-    //     if (gameActive == true) {
-    //         handlePlayerChange();
-    //     }
-
-    // } else {
-    //     window.alert(` این خانه قبلا توسط پر شده است${event.target.innerHTML}`);
-    // }
+    
     if (gameActive == true) {
         let indexgameState = Number(event.target.id) - 1;
 
