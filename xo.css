@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: medium;
+    color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-repeat: no-repeat;
+}
+
+#header {
+    background-color: #2a3a46;
+    font-size: 250%;
+    width: 100vw;
+    height: 29vh;
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    margin-top: 60px;
+}
+
+#message {
+    padding: 20px 0;
+    font-size: 50px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 165px 165px 165px;
+    margin-left: 32%;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid black;
+    color: #2a3a46;
+    font-size: 600%;
+    text-align: center;
+    padding: 15px;
+}
+
+.item:hover {
+    background-color: silver;
+}
+
+#main {
+    background-color: #c5c3c6;
+    width: 100vw;
+    height: 71vh;
+}
+
+#btn {
+    position: fixed;
+    top: 45%;
+    left: 10%;
+    width: 130px;
+    height: 100px;
+    color: rebeccapurple;
+    font-size: 180%;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+#btn:hover {
+    transform: translate(10px, 10px);
+}
